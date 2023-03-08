@@ -10,6 +10,7 @@ module.exports = {
     // !! WARN !!
     ignoreBuildErrors: true,
   },
+  basePath: isProd ? '/blog' : '',
   assetPrefix: isProd ? '/blog/' : '',
   images: {
     unoptimized: true,
