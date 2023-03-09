@@ -3,7 +3,7 @@
   "scripts": {
     "dev": "NODE_ENV=development next dev",
     "start": "next start",
-    "build": "next build && next export",
+    "build": "next build",
     "deploy": "cross-env NODE_ENV=production next build && next export && touch out/.nojekyll && git add out/ && git commit -m \"Deploy\" && git subtree push --prefix out origin gh-pages"
   },
   "dependencies": {

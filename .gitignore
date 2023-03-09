@@ -10,6 +10,7 @@
 
 # next.js
 /.next/
+next.config.js
 
 # production
 /build
@@ -17,6 +18,7 @@
 # misc
 .DS_Store
 *.pem
+README.md
 
 # debug
 npm-debug.log*
@@ -34,3 +36,6 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# vscode workspace
+blog.code-workspace

@@ -30,7 +30,6 @@ const Tags = () => {
                 const tagColor = tagColors[colorIndex]
                 return (
                     <Link key={tag.slug} href={`/tag/${tag.slug}`}>
-                        {/* <span className='cursor-pointer block pb-3 mb-3'>{tag.name}</span> */}
                         <span className={`inline-block mr-2 mb-4 px-3 py-1 text-white font-semibold rounded-full ${tagColor} cursor-pointer`}>{tag.name}</span>
                     </Link>
                 )
