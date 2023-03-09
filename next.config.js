@@ -10,8 +10,8 @@ module.exports = {
     // !! WARN !!
     ignoreBuildErrors: true,
   },
-  basePath: isProd ? '/blog' : '',
-  assetPrefix: isProd ? '/blog/' : '',
+  basePath: isProd ? '/static-blog' : '',
+  assetPrefix: isProd ? '/static-blog/' : '',
   images: {
     unoptimized: true,
   },
