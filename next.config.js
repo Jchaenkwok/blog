@@ -1,5 +1,5 @@
 /** @type {import('next').NextConfig} */
-const isProd = process.env.NODE_ENV === 'production'
+// const isProd = process.env.NODE_ENV === 'production'
 
 module.exports = {
   reactStrictMode: true,
@@ -10,8 +10,9 @@ module.exports = {
     // !! WARN !!
     ignoreBuildErrors: true,
   },
-  basePath: isProd ? '/static-blog' : '',
-  assetPrefix: isProd ? '/static-blog/' : '',
+  // basePath: isProd ? '/static-blog' : '',
+  // assetPrefix: isProd ? '/static-blog/' : '',
+  basePath: '',
   images: {
     unoptimized: true,
   },
